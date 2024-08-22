@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: hsl(226, 43%, 10%);
+    font-family: 'Rubik',sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 9rem auto;
+    flex-direction: row;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 1000px;
+    height: 500px;
+}
+
+.user{
+    background-color: hsl(246, 80%, 60%);
+    font-family: 'Rubik';
+    width: 20%;
+    padding: 1rem;
+    color: white;
+    padding: 2rem;
+}
+
+.card{
+    width: 75%;
+    height: 100%;
+    
+    
+
+}
+.user p{
+    font-weight: 100;
+    opacity: 70%;
+    margin-bottom: 0.5rem;
+}
+.user h1{
+    font-weight: 100;
+    margin-bottom: 5rem;
+}
+
+.user img{
+    width: 45%;
+    object-fit: cover;
+   
+    border: solid white;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+.user li{
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.5rem;
+    height: 100%;
+    font-family: 'Rubik';
+
+}
+
+.back{
+    position: relative;
+    background-color:  hsl(246, 80%, 60%);
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem ;
+
+}
+
+.front{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 82%;
+    background-color: hsl(235, 46%, 20%);
+    display: inline-block;
+    border-radius: 1rem ;
+    padding: 1.5rem;
+    color: white;
+    font-weight: 100;
+}
+
+#views{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 35%;
+    background-color: hsl(235, 46%, 20%);
+    display: inline-block;
+    border-radius: 1rem ;
+    padding: 1.5rem;
+    color: white;
+    
+}
+
+.user{
+    position: relative;
+    background-color:  hsl(246, 80%, 60%);
+    display: inline-block;
+    
+    height: 100%;
+    border-radius: 1rem ;
+    cursor: pointer;
+
+}
+
+.front img{
+    position: absolute;
+    padding: 1.5rem;
+    top: 0;
+    right:0;
+}
+
+.front h2{
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+.front h1{
+    font-weight: 100;
+    font-size: 44px;
+    margin-bottom: 1rem;
+    
+}
+.front p{
+    opacity: 70%;
+}
+
+.front:hover{
+    cursor: pointer;
+    background-color: hsl(235, 45%, 61%);
+}
+
+#views{
+    list-style: none;
+    
+}
+ul li{
+    opacity: 70%;
+}
+
+ul li:hover{
+    opacity: 100%;
+}
